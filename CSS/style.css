@@ -109,13 +109,22 @@ main h2 {
   margin: 0;
   padding: 1rem;
 }
-.container {
+#last_article {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  direction: row;
-  background-color: #abbaea;
+  justify-content: space-evenly;
+  height: 80vh;
+  margin-bottom: 1em;
 }
+#last_article p {
+  background-color: brown;
+  border-radius: 5%;
+  color: aliceblue;
+  width: 300px;
+  height: 250px;
+  padding: 1em;
+}
+
 .image {
   display: flex;
   justify-content: center;
